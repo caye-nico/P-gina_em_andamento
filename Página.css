@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.Cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.Cabeçalho_imagem {
+ height: 90px;
+}
+.Cabeçalho_menu {
+display: flex;
+gap: 30px;
+}
+.Cabeçalho_menu_item {
+    font-family: 'Lora', serif;
+    color: yellow;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Conteudo {
+    margin-bottom: 48px;
+    border-top: 0.5px solid whitesmoke;
+   
+}
+.Conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Conteudo_principal_escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Conteudo_principal_escrito_titulo {
+    font-family: 'Lora', serif;
+    color: yellow;
+    font-weight: 400;
+    font-size: 40px;
+}
+.Conteudo_principal_escrito_subtitulo {
+    font-family: 'Koulen', cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+}
+.Conteudo_principal_escrito_botao {
+    background-color: whitesmoke;
+    width: 175px;
+    height: 55px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 15px;
+    font-family: 'Koulen', cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+.Conteudo_principal_escrito_botao:hover {
+    background-color: rgba(255, 255, 0, 0.363);
+}
+.Conteudo_principal_imagem {
+    height: 400px;
+    padding-top: 20px;
+}
+.Conteudo_secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 45px;
+}
+.Conteudo_Secundario_Titulo{
+    border-top: 0.5px solid whitesmoke;
+    padding-top: 20px;
+    font-family: 'Lora', serif;
+    color: yellow;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.Conteudo_Secundario_Escrito_p1 {
+    font-family: 'Koulen', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 20px;
+}
+.Conteudo_Secundario_Escrito_p2 {
+    font-family: 'Koulen', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 20px;
+}
+.Rodape {
+    padding: 32px;
+    border-top: 0.5px solid whitesmoke;
+}
+.Rodape_Imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
